@@ -21,8 +21,8 @@
       { "presetId": "high3_nsoo_csat_2027", "title": "대학수학능력시험", "date": "2026-11-19" },
       
       { "presetId": "high3_nsoo_2026_7_mock", "title": "7월 교육청 모의고사", "date": "2026-07-08" },
-      { "presetId": "high3_nsoo_2026_10_mock", "title": "10월 교육청 모의고사", "date": "2026-10-20" },
-    ]},
+      { "presetId": "high3_nsoo_2026_10_mock", "title": "10월 교육청 모의고사", "date": "2026-10-20" }
+    ] },
     { "id": "university", "type": "status", "label": "대학생", "presets": [] },
     { "id": "graduate", "type": "status", "label": "대학원생", "presets": [] },
     { "id": "transfer", "type": "exam", "label": "편입", "presets": [] },

@@ -7,6 +7,7 @@
     { "id": "high2", "type": "status", "label": "고2", "presets": [] },
     { "id": "high3_nsoo", "type": "status", "label": "고3/N수생", "presets": [
       { "presetId": "csat_2027", "title": "대학수학능력시험", "date": "2026-11-19" },
+      { "presetId": "tst", "title": "테스트", "date": "2026-05-24" },
       { "presetId": "csat_2027_application", "title": "수능 응시원서 접수", "start": "2026-08-21", "end": "2026-09-04" }
     ]},
     { "id": "university", "type": "status", "label": "대학생", "presets": [] },

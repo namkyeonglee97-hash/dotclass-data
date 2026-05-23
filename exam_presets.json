@@ -1,22 +1,29 @@
 {
   "version": "2026.05.23",
   "categories": [
-    {
-      "id": "highschool_csat",
-      "label": "고3·N수 (수능)",
-      "presets": [
-        {
-          "presetId": "csat_2027",
-          "title": "대학수학능력시험",
-          "date": "2026-11-19"
-        },
-        {
-          "presetId": "csat_2027_application",
-          "title": "수능 응시원서 접수",
-          "start": "2026-08-21",
-          "end": "2026-09-04"
-        }
-      ]
-    }
+    { "id": "elementary", "type": "status", "label": "초등학생", "presets": [] },
+    { "id": "middle", "type": "status", "label": "중학생", "presets": [] },
+    { "id": "high1", "type": "status", "label": "고1", "presets": [] },
+    { "id": "high2", "type": "status", "label": "고2", "presets": [] },
+    { "id": "high3_nsoo", "type": "status", "label": "고3/N수생", "presets": [
+      { "presetId": "csat_2027", "title": "대학수학능력시험", "date": "2026-11-19" },
+      { "presetId": "csat_2027_application", "title": "수능 응시원서 접수", "start": "2026-08-21", "end": "2026-09-04" }
+    ]},
+    { "id": "university", "type": "status", "label": "대학생", "presets": [] },
+    { "id": "graduate", "type": "status", "label": "대학원생", "presets": [] },
+    { "id": "transfer", "type": "exam", "label": "편입", "presets": [] },
+    { "id": "leet", "type": "exam", "label": "LEET", "presets": [] },
+    { "id": "mdeet", "type": "exam", "label": "MDEET", "presets": [] },
+    { "id": "teacher", "type": "exam", "label": "교원 임용", "presets": [] },
+    { "id": "public_officer", "type": "exam", "label": "공무원", "presets": [] },
+    { "id": "cpa", "type": "exam", "label": "회계사", "presets": [] },
+    { "id": "bar_exam", "type": "exam", "label": "변호사", "presets": [] },
+    { "id": "realtor", "type": "exam", "label": "공인중개사", "presets": [] },
+    { "id": "cta", "type": "exam", "label": "세무사", "presets": [] },
+    { "id": "labor_attorney", "type": "exam", "label": "노무사", "presets": [] },
+    { "id": "patent_attorney", "type": "exam", "label": "변리사", "presets": [] },
+    { "id": "language", "type": "exam", "label": "어학", "presets": [] },
+    { "id": "certification", "type": "exam", "label": "자격증", "presets": [] },
+    { "id": "etc", "type": "exam", "label": "기타", "presets": [] }
   ]
 }

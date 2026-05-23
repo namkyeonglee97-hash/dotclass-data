@@ -3,12 +3,25 @@
   "categories": [
     { "id": "elementary", "type": "status", "label": "초등학생", "presets": [] },
     { "id": "middle", "type": "status", "label": "중학생", "presets": [] },
-    { "id": "high1", "type": "status", "label": "고1", "presets": [] },
-    { "id": "high2", "type": "status", "label": "고2", "presets": [] },
+    { "id": "high1", "type": "status", "label": "고1", "presets": [
+      { "presetId": "high1_2026_6_mock", "title": "6월 교육청 모의고사", "date": "2026-06-04" },
+      { "presetId": "high1_2026_9_mock", "title": "9월 교육청 모의고사", "date": "2026-09-02" },
+      { "presetId": "high1_2026_10_mock", "title": "10월 교육청 모의고사", "date": "2026-10-20" }
+    ] },
+    { "id": "high2", "type": "status", "label": "고2", "presets": [
+      { "presetId": "high2_2026_6_mock", "title": "6월 교육청 모의고사", "date": "2026-06-04" },
+      { "presetId": "high2_2026_9_mock", "title": "9월 교육청 모의고사", "date": "2026-09-02" },
+      { "presetId": "high2_2026_10_mock", "title": "10월 교육청 모의고사", "date": "2026-10-20" }
+    ] },
     { "id": "high3_nsoo", "type": "status", "label": "고3/N수생", "presets": [
-      { "presetId": "csat_2027", "title": "대학수학능력시험", "date": "2026-11-19" },
-      { "presetId": "tst", "title": "테스트", "date": "2026-05-24" },
-      { "presetId": "csat_2027_application", "title": "수능 응시원서 접수", "start": "2026-08-21", "end": "2026-09-04" }
+      { "presetId": "high3_nsoo_csat_2027_6_mock", "title": "6월 모의평가", "date": "2026-06-04" },
+      { "presetId": "high3_nsoo_csat_2027_9_mock_application", "title": "9월 모의평가 원서 접수", "start": "2026-06-19", "end": "2026-07-01" },
+      { "presetId": "high3_nsoo_csat_2027_9_mock", "title": "9월 모의평가", "date": "2026-09-02" },
+      { "presetId": "high3_nsoo_csat_2027_application", "title": "수능 원서 접수", "start": "2026-08-24", "end": "2026-09-04" },
+      { "presetId": "high3_nsoo_csat_2027", "title": "대학수학능력시험", "date": "2026-11-19" },
+      
+      { "presetId": "high3_nsoo_2026_7_mock", "title": "7월 교육청 모의고사", "date": "2026-07-08" },
+      { "presetId": "high3_nsoo_2026_10_mock", "title": "10월 교육청 모의고사", "date": "2026-10-20" },
     ]},
     { "id": "university", "type": "status", "label": "대학생", "presets": [] },
     { "id": "graduate", "type": "status", "label": "대학원생", "presets": [] },

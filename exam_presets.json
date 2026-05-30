@@ -1,5 +1,5 @@
 {
-  "version": "2026.05.23",
+  "version": "2026.05.30",
   "categories": [
     { "id": "elementary", "type": "status", "label": "초등학생", "presets": [] },
     { "id": "middle", "type": "status", "label": "중학생", "presets": [] },
@@ -19,23 +19,128 @@
       { "presetId": "high3_nsoo_csat_2027_9_mock", "title": "9월 모의평가", "date": "2026-09-02" },
       { "presetId": "high3_nsoo_csat_2027_application", "title": "수능 원서 접수", "start": "2026-08-24", "end": "2026-09-04" },
       { "presetId": "high3_nsoo_csat_2027", "title": "대학수학능력시험", "date": "2026-11-19" },
-      
+
       { "presetId": "high3_nsoo_2026_7_mock", "title": "7월 교육청 모의고사", "date": "2026-07-08" },
       { "presetId": "high3_nsoo_2026_10_mock", "title": "10월 교육청 모의고사", "date": "2026-10-20" }
     ] },
     { "id": "university", "type": "status", "label": "대학생", "presets": [] },
     { "id": "graduate", "type": "status", "label": "대학원생", "presets": [] },
     { "id": "transfer", "type": "exam", "label": "편입", "presets": [] },
-    { "id": "leet", "type": "exam", "label": "LEET", "presets": [] },
-    { "id": "mdeet", "type": "exam", "label": "MDEET", "presets": [] },
+    { "id": "leet", "type": "exam", "label": "LEET", "presets": [
+      { "presetId": "leet_2027_application", "title": "2027학년도 법학적성시험 응시원서 접수", "start": "2026-05-26", "end": "2026-06-04" },
+      { "presetId": "leet_2027_admission_ticket", "title": "2027학년도 법학적성시험 수험표 교부", "start": "2026-07-01", "end": "2026-07-19" },
+      { "presetId": "leet_2027_exam", "title": "2027학년도 법학적성시험", "date": "2026-07-19" },
+      { "presetId": "leet_2027_result", "title": "2027학년도 법학적성시험 성적발표", "date": "2026-08-18" }
+    ] },
+    { "id": "mdeet", "type": "exam", "label": "MDEET", "presets": [
+      { "presetId": "mdeet_2027_application", "title": "2027학년도 의·치의학교육입문검사 응시원서 접수", "start": "2026-06-09", "end": "2026-06-19" },
+      { "presetId": "mdeet_2027_admission_ticket", "title": "2027학년도 의·치의학교육입문검사 수험표 교부", "start": "2026-07-20", "end": "2026-08-09" },
+      { "presetId": "mdeet_2027_exam", "title": "2027학년도 의·치의학교육입문검사", "date": "2026-08-09" },
+      { "presetId": "mdeet_2027_result", "title": "2027학년도 의·치의학교육입문검사 성적발표", "date": "2026-09-08" }
+    ] },
     { "id": "teacher", "type": "exam", "label": "교원 임용", "presets": [] },
-    { "id": "public_officer", "type": "exam", "label": "공무원", "presets": [] },
-    { "id": "cpa", "type": "exam", "label": "회계사", "presets": [] },
+    { "id": "public_officer", "type": "exam", "label": "공무원", "presets": [
+      { "presetId": "public_officer_2026_national_7_phase1_exam", "title": "2026년 국가직 7급 1차(필기)시험", "date": "2026-07-18" },
+      { "presetId": "public_officer_2026_national_7_phase1_result", "title": "2026년 국가직 7급 1차 합격자발표", "date": "2026-08-19" },
+      { "presetId": "public_officer_2026_national_7_phase2_exam", "title": "2026년 국가직 7급 2차(필기)시험", "date": "2026-09-19" },
+      { "presetId": "public_officer_2026_national_7_phase2_result", "title": "2026년 국가직 7급 2차 합격자발표", "date": "2026-10-29" },
+      { "presetId": "public_officer_2026_national_7_interview", "title": "2026년 국가직 7급 면접시험", "start": "2026-11-23", "end": "2026-11-26" },
+      { "presetId": "public_officer_2026_national_7_final_result", "title": "2026년 국가직 7급 최종합격자발표", "date": "2026-12-11" },
+
+      { "presetId": "public_officer_2026_assembly_9_application", "title": "2026년 국회직 9급 응시원서 접수", "start": "2026-06-19", "end": "2026-06-26" },
+      { "presetId": "public_officer_2026_assembly_9_written_exam", "title": "2026년 국회직 9급 필기시험", "date": "2026-09-05" },
+      { "presetId": "public_officer_2026_assembly_9_written_result", "title": "2026년 국회직 9급 필기 합격자발표", "date": "2026-09-30" },
+      { "presetId": "public_officer_2026_assembly_9_interview", "title": "2026년 국회직 9급 면접시험", "start": "2026-10-27", "end": "2026-10-30" },
+      { "presetId": "public_officer_2026_assembly_9_final_result", "title": "2026년 국회직 9급 최종합격자 발표", "date": "2026-11-06" },
+
+      { "presetId": "public_officer_2026_military_9_written_exam", "title": "2026년 군무원 9급 필기시험", "date": "2026-07-04" },
+      { "presetId": "public_officer_2026_military_9_written_result", "title": "2026년 군무원 9급 필기합격자 발표", "date": "2026-08-10" },
+      { "presetId": "public_officer_2026_military_9_final_result", "title": "2026년 군무원 9급 최종합격자 발표", "date": "2026-09-30" },
+
+      { "presetId": "public_officer_2026_local_9_written_exam", "title": "2026년 지방직 9급 필기시험", "date": "2026-06-20" },
+      { "presetId": "public_officer_2026_local_7_application", "title": "2026년 지방직 7급 원서접수", "start": "2026-07-20", "end": "2026-07-24" },
+      { "presetId": "public_officer_2026_local_7_written_exam", "title": "2026년 지방직 7급 필기시험", "date": "2026-10-31" },
+
+      { "presetId": "public_officer_2026_education_9_written_exam", "title": "2026년 교육청 9급 필기시험", "date": "2026-06-20" },
+
+      { "presetId": "public_officer_2026_seoul_9_written_exam", "title": "2026년 서울시 9급 필기시험", "date": "2026-06-20" },
+      { "presetId": "public_officer_2026_seoul_9_written_result", "title": "2026년 서울시 9급 필기 합격자발표", "date": "2026-07-23" },
+      { "presetId": "public_officer_2026_seoul_9_interview_venue_notice", "title": "2026년 서울시 9급 인성검사 및 면접시험 시험장소 공고", "date": "2026-07-23" },
+      { "presetId": "public_officer_2026_seoul_9_personality_test", "title": "2026년 서울시 9급 인성검사", "date": "2026-08-08" },
+      { "presetId": "public_officer_2026_seoul_9_interview", "title": "2026년 서울시 9급 면접시험", "start": "2026-08-21", "end": "2026-09-11" },
+      { "presetId": "public_officer_2026_seoul_9_final_result", "title": "2026년 서울시 9급 최종합격자 발표", "date": "2026-09-30" },
+
+      { "presetId": "public_officer_2026_court_9_phase12_exam", "title": "2026년 법원직 9급 1·2차 시험", "date": "2026-06-20" },
+      { "presetId": "public_officer_2026_court_9_phase12_result", "title": "2026년 법원직 9급 1·2차 합격자발표", "date": "2026-07-10" },
+      { "presetId": "public_officer_2026_court_9_personality_test", "title": "2026년 법원직 9급 인성검사", "date": "2026-07-14" },
+      { "presetId": "public_officer_2026_court_9_it_phase3_exam", "title": "2026년 법원직 9급 전산/사서 3차 시험", "date": "2026-07-21" },
+      { "presetId": "public_officer_2026_court_9_it_final_result", "title": "2026년 법원직 9급 전산/사서 최종합격자 발표", "date": "2026-07-27" },
+      { "presetId": "public_officer_2026_court_9_court_phase3_exam", "title": "2026년 법원직 9급 법원/등기 3차 시험", "date": "2026-07-31" },
+      { "presetId": "public_officer_2026_court_9_court_final_result", "title": "2026년 법원직 9급 법원/등기 최종합격자발표", "date": "2026-08-07" },
+
+      { "presetId": "public_officer_2026_grade5_admin_phase2_exam", "title": "2026년 5급공채(행정) 2차(필기)시험", "start": "2026-06-24", "end": "2026-06-29" },
+      { "presetId": "public_officer_2026_grade5_admin_phase2_result", "title": "2026년 5급공채(행정) 2차 합격자발표", "date": "2026-09-11" },
+      { "presetId": "public_officer_2026_grade5_admin_interview", "title": "2026년 5급공채(행정) 면접시험", "start": "2026-10-12", "end": "2026-10-14" },
+      { "presetId": "public_officer_2026_grade5_admin_final_result", "title": "2026년 5급공채(행정) 최종합격자발표", "date": "2026-10-30" },
+
+      { "presetId": "public_officer_2026_grade5_tech_phase2_exam", "title": "2026년 5급공채(기술) 2차(필기)시험", "start": "2026-07-01", "end": "2026-07-04" },
+      { "presetId": "public_officer_2026_grade5_tech_phase2_result", "title": "2026년 5급공채(기술) 2차 합격자발표", "date": "2026-09-11" },
+      { "presetId": "public_officer_2026_grade5_tech_interview", "title": "2026년 5급공채(기술) 면접시험", "start": "2026-10-12", "end": "2026-10-14" },
+      { "presetId": "public_officer_2026_grade5_tech_final_result", "title": "2026년 5급공채(기술) 최종합격자발표", "date": "2026-10-30" },
+
+      { "presetId": "public_officer_2026_diplomat_phase2_exam", "title": "2026년 외교관후보자 2차(필기)시험", "start": "2026-06-24", "end": "2026-06-29" },
+      { "presetId": "public_officer_2026_diplomat_phase2_result", "title": "2026년 외교관후보자 2차 합격자발표", "date": "2026-09-11" },
+      { "presetId": "public_officer_2026_diplomat_interview", "title": "2026년 외교관후보자 면접시험", "date": "2026-10-15" },
+      { "presetId": "public_officer_2026_diplomat_final_result", "title": "2026년 외교관후보자 최종합격자발표", "date": "2026-10-30" },
+
+      { "presetId": "public_officer_2026_police_h2_phase1_exam", "title": "경찰공무원 하반기 순경 공채 1차시험", "date": "2026-08-22" },
+      { "presetId": "public_officer_2026_police_h2_result", "title": "경찰공무원 하반기 순경 공채 합격발표", "date": "2026-12-11" }
+    ] },
+    { "id": "cpa", "type": "exam", "label": "회계사", "presets": [
+      { "presetId": "cpa_61_2_venue_notice", "title": "61회 제2차 공인회계사 시험 시험 장소 및 시간 공고일", "date": "2026-06-05" },
+      { "presetId": "cpa_61_2_exam", "title": "61회 제2차 공인회계사 시험", "start": "2026-06-27", "end": "2026-06-28" },
+      { "presetId": "cpa_61_2_result", "title": "61회 제2차 공인회계사 시험 합격자발표", "date": "2026-09-04" }
+    ] },
     { "id": "bar_exam", "type": "exam", "label": "변호사", "presets": [] },
-    { "id": "realtor", "type": "exam", "label": "공인중개사", "presets": [] },
-    { "id": "cta", "type": "exam", "label": "세무사", "presets": [] },
-    { "id": "labor_attorney", "type": "exam", "label": "노무사", "presets": [] },
-    { "id": "patent_attorney", "type": "exam", "label": "변리사", "presets": [] },
+    { "id": "realtor", "type": "exam", "label": "공인중개사", "presets": [
+      { "presetId": "realtor_37_1_application", "title": "37회 1차 공인중개사 시험 응시원서 접수", "start": "2026-08-03", "end": "2026-08-07" },
+      { "presetId": "realtor_37_1_addl_application", "title": "37회 1차 공인중개사 시험 빈자리 추가접수", "start": "2026-10-01", "end": "2026-10-02" },
+      { "presetId": "realtor_37_1_exam", "title": "37회 1차 공인중개사 시험", "date": "2026-10-31" },
+      { "presetId": "realtor_37_1_provisional_answer", "title": "37회 1차 공인중개사 시험 가답안발표", "start": "2026-10-31", "end": "2026-11-06" },
+      { "presetId": "realtor_37_1_objection_period", "title": "37회 1차 공인중개사 시험 의견제시기간", "start": "2026-10-31", "end": "2026-11-06" },
+      { "presetId": "realtor_37_1_final_answer", "title": "37회 1차 공인중개사 시험 최종정답발표", "start": "2026-12-02", "end": "2027-01-31" },
+      { "presetId": "realtor_37_1_result", "title": "37회 1차 공인중개사 시험 합격자발표", "start": "2026-12-02", "end": "2027-01-31" },
+
+      { "presetId": "realtor_37_2_application", "title": "37회 2차 공인중개사 시험 응시원서 접수", "start": "2026-08-03", "end": "2026-08-07" },
+      { "presetId": "realtor_37_2_addl_application", "title": "37회 2차 공인중개사 시험 빈자리 추가접수", "start": "2026-10-01", "end": "2026-10-02" },
+      { "presetId": "realtor_37_2_exam", "title": "37회 2차 공인중개사 시험", "date": "2026-10-31" },
+      { "presetId": "realtor_37_2_provisional_answer", "title": "37회 2차 공인중개사 시험 가답안발표", "start": "2026-10-31", "end": "2026-11-06" },
+      { "presetId": "realtor_37_2_objection_period", "title": "37회 2차 공인중개사 시험 의견제시기간", "start": "2026-10-31", "end": "2026-11-06" },
+      { "presetId": "realtor_37_2_final_answer", "title": "37회 2차 공인중개사 시험 최종정답발표", "start": "2026-12-02", "end": "2027-01-31" },
+      { "presetId": "realtor_37_2_result", "title": "37회 2차 공인중개사 시험 합격자발표", "start": "2026-12-02", "end": "2027-01-31" }
+    ] },
+    { "id": "cta", "type": "exam", "label": "세무사", "presets": [
+      { "presetId": "cta_63_2_application", "title": "63회 2차 세무사 시험 응시원서 접수", "start": "2026-06-15", "end": "2026-06-19" },
+      { "presetId": "cta_63_2_document_submission", "title": "63회 2차 세무사 시험 서류제출", "start": "2026-06-08", "end": "2026-06-19" },
+      { "presetId": "cta_63_2_exam", "title": "63회 2차 세무사 시험", "date": "2026-07-18" },
+      { "presetId": "cta_63_2_objection_period", "title": "63회 2차 세무사 시험 의견제시기간", "start": "2026-07-18", "end": "2026-07-24" },
+      { "presetId": "cta_63_2_result", "title": "63회 2차 세무사 시험 합격자발표", "start": "2026-10-28", "end": "2026-12-26" }
+    ] },
+    { "id": "labor_attorney", "type": "exam", "label": "노무사", "presets": [
+      { "presetId": "labor_attorney_35_2_application", "title": "35회 2차 공인노무사 시험 응시원서 접수", "start": "2026-07-13", "end": "2026-07-17" },
+      { "presetId": "labor_attorney_35_2_document_submission", "title": "35회 2차 공인노무사 시험 서류제출", "start": "2026-07-09", "end": "2026-07-17" },
+      { "presetId": "labor_attorney_35_2_exam", "title": "35회 2차 공인노무사 시험", "start": "2026-08-29", "end": "2026-08-30" },
+      { "presetId": "labor_attorney_35_2_result", "title": "35회 2차 공인노무사 시험 합격자발표", "start": "2026-11-18", "end": "2027-01-16" },
+
+      { "presetId": "labor_attorney_35_3_application", "title": "35회 3차 공인노무사 시험 응시원서 접수", "start": "2026-07-13", "end": "2026-07-17" },
+      { "presetId": "labor_attorney_35_3_exam", "title": "35회 3차 공인노무사 시험", "date": "2026-11-27" },
+      { "presetId": "labor_attorney_35_3_result", "title": "35회 3차 공인노무사 시험 합격자발표", "start": "2026-12-09", "end": "2027-02-07" }
+    ] },
+    { "id": "patent_attorney", "type": "exam", "label": "변리사", "presets": [
+      { "presetId": "patent_attorney_63_2_exam", "title": "63회 2차 변리사 시험", "start": "2026-07-31", "end": "2026-08-01" },
+      { "presetId": "patent_attorney_63_2_objection_period", "title": "63회 2차 변리사 시험 의견제시기간", "start": "2026-08-01", "end": "2026-08-07" },
+      { "presetId": "patent_attorney_63_2_result", "title": "63회 2차 변리사 시험 합격자발표", "start": "2026-10-28", "end": "2026-12-26" }
+    ] },
     { "id": "language", "type": "exam", "label": "어학", "presets": [] },
     { "id": "certification", "type": "exam", "label": "자격증", "presets": [] },
     { "id": "etc", "type": "exam", "label": "기타", "presets": [] }
